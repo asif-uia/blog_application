@@ -30,10 +30,8 @@ class _BodyState extends State<Body> {
     // this.name = controller.text; // 4
     signInWithGoogle().then((user) => {
           // this.user = user, // 5
-          Navigator.push(
-              context,
-              MaterialPageRoute(
-                  builder: (context) => MyHomePage(user.displayName)))
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => MyHomePage(user)))
         });
   }
 
