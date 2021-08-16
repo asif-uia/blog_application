@@ -1,3 +1,4 @@
+import 'package:blog_application/myHomePageWidget.dart';
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -25,6 +26,8 @@ class _BodyState extends State<Body> {
 
   void click() {
     this.name = controller.text;
+    Navigator.push(context,
+        MaterialPageRoute(builder: (context) => MyHomePage(this.name)));
   }
 
   @override
