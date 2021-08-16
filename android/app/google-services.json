@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "135028082016",
+    "project_id": "vlogapp-501aa",
+    "storage_bucket": "vlogapp-501aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135028082016:android:407f8dacc5c41531c48a05",
+        "android_client_info": {
+          "package_name": "com.example.blog_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135028082016-u0lst24a37s58ic7997qc7h3a6ud19tt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.blog_application",
+            "certificate_hash": "407a884c91e40a38dc50b9d2356069ff1ed288c0"
+          }
+        },
+        {
+          "client_id": "135028082016-1tjfk4ha63tp0pvf9el0ipmsvf00t91o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb-trb4WrH01s6XaQ9KO1HOzn2yGpp7rA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135028082016-1tjfk4ha63tp0pvf9el0ipmsvf00t91o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
