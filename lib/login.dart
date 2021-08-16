@@ -1,5 +1,6 @@
 import 'package:blog_application/myHomePageWidget.dart';
 import 'package:flutter/material.dart';
+import 'auth.dart';
 
 class LoginPage extends StatelessWidget {
   @override
@@ -20,9 +21,10 @@ class Body extends StatefulWidget {
 }
 
 class _BodyState extends State<Body> {
-  String name = "";
+  // FirebaseUser user; // 5
 
-  TextEditingController controller = new TextEditingController();
+  // String name = ""; // 4
+  // TextEditingController controller = new TextEditingController(); // 4
 
   void click() {
     this.name = controller.text;
